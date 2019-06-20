@@ -8,7 +8,7 @@
     android:orientation="vertical">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageViewLogo"
         android:layout_width="match_parent"
         android:layout_weight="1"
         android:layout_height="0dp"
@@ -16,7 +16,7 @@
         app:srcCompat="@drawable/logo" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewWelcome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
@@ -27,7 +27,7 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/editTextName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
@@ -35,7 +35,7 @@
         android:hint="@string/hint_name"/>
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/editTextPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
@@ -43,11 +43,12 @@
         android:hint="@string/hint_password"/>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonCreateOrder"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:text="@string/button_create_order"
         android:textSize="24sp"
-        android:background="@color/background_button"/>
+        android:background="@color/background_button"
+        android:onClick="onClickCreateOrder"/>
 </LinearLayout>
