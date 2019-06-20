@@ -6,4 +6,25 @@
     <string name="hint_password">Password:</string>
     <string name="button_create_order">Create order</string>
     <string name="warning_fill_fields">All fields must be filled</string>
+    <string name="hello_user">Hello customer! What will you order?</string>
+    <string name="tea">tea</string>
+    <string name="coffee">coffee</string>
+    <string name="additions">What to add to tea?</string>
+    <string name="milk">Milk</string>
+    <string name="sugar">Sugar</string>
+    <string name="lemon">Lemon</string>
+    <string name="type_of_drink">Choose the type of drink</string>
+    <string name="submit_order_button">submit order button</string>
+
+    <string-array name="options_of_coffee">
+        <item>Americano</item>
+        <item>Latte</item>
+        <item>Espresso</item>
+    </string-array>
+
+    <string-array name="options_of_tea">
+        <item>Black</item>
+        <item>Green</item>
+        <item>Read</item>
+    </string-array>
 </resources>
