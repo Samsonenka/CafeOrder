@@ -32,14 +32,19 @@
         android:layout_margin="8dp">
 
         <RadioButton
+            android:id="@+id/radioButtonTea"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/tea"/>
+            android:checked="true"
+            android:text="@string/tea"
+            android:onClick="onClickChangeDrink"/>
 
         <RadioButton
+            android:id="@+id/radioButtonCoffee"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/coffee"/>
+            android:text="@string/coffee"
+            android:onClick="onClickChangeDrink"/>
 
     </RadioGroup>
 
@@ -131,6 +136,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_margin="8dp"
         android:contentDescription="@string/submit_order_button"
-        android:src="@drawable/order"/>
+        android:src="@drawable/order"
+        android:onClick="onClickSendOrder"/>
 
 </android.support.constraint.ConstraintLayout>

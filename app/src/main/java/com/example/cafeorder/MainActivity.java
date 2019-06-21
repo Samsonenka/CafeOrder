@@ -1,4 +1,4 @@
-package com.example.caffeorder;
+package com.example.cafeorder;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -28,9 +28,9 @@ public class MainActivity extends AppCompatActivity {
 
         if (!name.isEmpty() && !password.isEmpty()){
             Intent intent = new Intent(this, CreateOrderActivity.class);
-            startActivity(intent);
             intent.putExtra("name", name);
             intent.putExtra("password", password);
+            startActivity(intent);
         } else {
             Toast.makeText(this, R.string.warning_fill_fields, Toast.LENGTH_SHORT).show();
         }

@@ -1,4 +1,4 @@
-package com.example.caffeorder;
+package com.example.cafeorder;
 
 import org.junit.Test;
 

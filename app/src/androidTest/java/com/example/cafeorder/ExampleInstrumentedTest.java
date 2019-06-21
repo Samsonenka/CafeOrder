@@ -1,4 +1,4 @@
-package com.example.caffeorder;
+package com.example.cafeorder;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
